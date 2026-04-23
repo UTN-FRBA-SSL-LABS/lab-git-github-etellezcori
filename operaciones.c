@@ -2,7 +2,7 @@
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
 
-int sumar(const int a,const  int b) {
+int sumar(int a, int b) {
     return a + b;
 }
 
@@ -22,8 +22,4 @@ int multiplicar(int a, int b) {
 
 int esPar(int n) {
     return (n % 2) == 0;
-}
-
-int dividir(int a, int b) {
-    return a - b; /* bug intencional */
 }
